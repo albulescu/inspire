@@ -18,10 +18,10 @@ let icon = NSStatusBar.system.statusItem(
 
 struct Inspire: ParsableCommand {
     
-    @Option(help: "Mode [short, normal, deep]. Default normal.")
+    @Option(help: "Mode [short, normal, deep].")
     var mode = "normal"
     
-    @Option(help: "Gap in seconds. Default 2.")
+    @Option(help: "Gap in seconds.")
     var gap = 2
 
     func run() throws {
