@@ -14,8 +14,8 @@ inspire --help
 USAGE: inspire [--mode <mode>] [--gap <gap>]
 
 OPTIONS:
-  --mode <mode>           Mode [short, normal, deep]. Default normal. (default: normal)
-  --gap <gap>             Gap in seconds. Default 2. (default: 2)
+  --mode <mode>           Mode [short, normal, deep]. (default: normal)
+  --gap <gap>             Gap in seconds. (default: 2)
   -h, --help              Show help information.
 ```
 
